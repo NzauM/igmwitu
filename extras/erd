@@ -1,0 +1,19 @@
+   +-----------+             +-----------+
+   |  Users    |             |   Posts   |
+   +-----------+             +-----------+
+   | id        |<------/     | id        |
+   | username  |             | image     |
+   | email     |             | caption   |
+   | password  |             | user_id   |
+   +-----------+             +-----------+
+        |                           |
+        | has many                  | belongs to
+        |                           |
+   +-----------+             +-----------+
+   |   Likes   |             | Comments |
+   +-----------+             +-----------+
+   | id        |<------/     | id        |
+   | post_id   |             | post_id   |
+   | user_id   |             | user_id   |
+   +-----------+             | comment   |
+                              +-----------+

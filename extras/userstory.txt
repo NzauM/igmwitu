@@ -1,0 +1,27 @@
+** A user can Log in 
+A user can see all posts ========
+A user can like and see the number of likes on a post =======
+A user can comment and see all comments in a post
+A user can add a post =======
+
+
+Likes:
+post id
+user_id
+
+Add Tags Model for better r/ships
+Tags:
+id
+name
+category
+
+Post-Tags
+id
+post_id
+tag_id
+
+user
+id
+username
+email
+password
